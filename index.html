@@ -666,27 +666,31 @@
 
                     console.log("Form data to be sent:", JSON.stringify(formData, null, 2)); // DEBUGGING LINE
 
-                    if (config.settings?.webhookUrl && config.settings.webhookUrl !== "https://formspree.io/f/xgvlgrpn") {
-                        try {
-                            const response = await fetch(config.settings.webhookUrl, {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: JSON.stringify(formData)
-                            });
-                            if (!response.ok) {
-                                console.error("Webhook submission failed:", response.status, await response.text());
-                                // Optionally, show an error to the user
-                            } else {
-                                console.log("Webhook submission successful:", await response.json());
-                            }
-                        } catch (error) {
-                            console.error("Webhook submission error:", error);
-                            // Optionally, show an error to the user
-                        }
-                    } else {
-                        console.log("Demo submit (webhook URL not configured or is placeholder):", formData);
-                        await new Promise(r => setTimeout(r, 700)); // Simulate network delay
-                    }
+                   // Format for Formspree (url-encoded)
+const formBody = new URLSearchParams();
+formBody.append('fullName', formData.fullName);
+formBody.append('email', formData.email);
+formBody.append('giveawayName', formData.giveawayName || '');
+formBody.append('submittedAt', formData.submittedAt);
+formBody.append('deploymentInfo', JSON.stringify(formData.deploymentInfo || {}));
+
+try {
+    const response = await fetch("https://formspree.io/f/xgvlgrpn", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: formBody.toString()
+    });
+
+    if (!response.ok) {
+        console.error("Formspree submission failed:", response.status, await response.text());
+    } else {
+        console.log("Formspree submission successful:", await response.text());
+    }
+} catch (error) {
+    console.error("Formspree submission error:", error);
+}
 
                     if (successModal && modalFinalStep) {
                         modalFinalStep.style.display = 'block';
@@ -721,5 +725,6 @@
 </body>
 
 </html>
+
 
 
