@@ -666,7 +666,7 @@
 
                     console.log("Form data to be sent:", JSON.stringify(formData, null, 2)); // DEBUGGING LINE
 
-                    if (config.settings?.webhookUrl && config.settings.webhookUrl !== "https://webhook.site/46e57c40-420d-47fc-82da-8677e9831e2b") {
+                    if (config.settings?.webhookUrl && config.settings.webhookUrl !== "YOUR_N8N_OR_FORM_HANDLER_WEBHOOK_URL") {
                         try {
                             const response = await fetch(config.settings.webhookUrl, {
                                 method: 'POST',
@@ -721,3 +721,4 @@
 </body>
 
 </html>
+
