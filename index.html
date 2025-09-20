@@ -666,7 +666,7 @@
 
                     console.log("Form data to be sent:", JSON.stringify(formData, null, 2)); // DEBUGGING LINE
 
-                    if (config.settings?.webhookUrl && config.settings.webhookUrl !== "https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTY1MDYzMDA0MzQ1MjZjNTUzMDUxMzYi_pc") {
+                    if (config.settings?.webhookUrl && config.settings.webhookUrl !== "https://webhook.site/46e57c40-420d-47fc-82da-8677e9831e2b") {
                         try {
                             const response = await fetch(config.settings.webhookUrl, {
                                 method: 'POST',
@@ -719,4 +719,5 @@
     </script>
 
 </body>
+
 </html>
