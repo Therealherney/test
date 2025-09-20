@@ -666,7 +666,7 @@
 
                     console.log("Form data to be sent:", JSON.stringify(formData, null, 2)); // DEBUGGING LINE
 
-                    if (config.settings?.webhookUrl && config.settings.webhookUrl !== "YOUR_N8N_OR_FORM_HANDLER_WEBHOOK_URL") {
+                    if (config.settings?.webhookUrl && config.settings.webhookUrl !== "https://formspree.io/f/xgvlgrpn") {
                         try {
                             const response = await fetch(config.settings.webhookUrl, {
                                 method: 'POST',
@@ -721,4 +721,5 @@
 </body>
 
 </html>
+
 
