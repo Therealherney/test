@@ -1,7 +1,7 @@
 const config = {
     "giveaway": {
-      "name": "Arslan",
-      "heroHeadline": "Win a <span class='highlight'>Free Home Consultation & Gift Package</span> with THEFANLONGE!",
+      "name": "THEFANLOUNGE",
+      "heroHeadline": "Win a <span class='highlight'>Free Home Consultation & Gift Package</span> with THEFANLOUNGE!",
       "heroSubheadline": "Enter for a chance to connect with Erica Reddy-Choquette from Royal LePage Signature for expert real estate advice and a special gift package!",
       "promotionDates": "Promotion runs from May 1, 2025 until December 31, 2025.",
       "endDate": "2025-12-01T03:59:00.000Z",
@@ -161,11 +161,12 @@ const config = {
       "showCountdownInHero": true
     },
     "deploymentInfo": {
-      "repoName": "Giveaway-586",
-      "repoUrl": "https://github.com/arslvn93/Giveaway-586",
-      "tag": "Erica Reddy-Choquette May 2025",
-      "netlifyUrl": "http://Giveaway-586.netlify.app",
+      "repoName": "THEFANLOUNGE",
+      "repoUrl": "https://thefanlounge.site",
+      "tag": "THEFANLOUNGE",
+      "netlifyUrl": "http://thefanlounge.site",
       "netlifyId": "979716955"
     },
     "modalQuestions": []
+
   };
