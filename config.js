@@ -5,8 +5,6 @@ const config = {
       "heroSubheadline": "Enter for a chance to connect with Erica Reddy-Choquette from Royal LePage Signature for expert real estate advice and a special gift package!",
       "promotionDates": "Promotion runs from May 1, 2025 until December 31, 2025.",
       "endDate": "2025-12-01T03:59:00.000Z",
-      "heroBackgroundImageUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/2d3322d2-1afe-448b-83c7-57b6eb3e9931/DSC00313.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UYAVY6ZS%2F20250508%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250508T004637Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCRiSVExAsrPRjS%2B2WWVh4IOH49K9pAjJrQqhsb7fCCPwIgPWgLViNJ1pGWNRKwBEZ6LWQagcX9iE9XzbFmllET1S4q%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDHmHX1wIKZ3426CvdircA9v%2FHJllLC6zMPdveigdmhf3HbQv8p6V36Z8cxCRHXken7SD8WaDLMSRI4OpzP4yUpV0In3uN2elLzpVR602oZ8rh6ewQheq9eWunGKObzwOdhEjmgy86kRkJ1VbiBT1WaEu%2FE%2BrhMcxwjCGkCfb3KNvFMv3XTilp%2BpE0HaxkL%2Fa5eS3IhdI%2Fl86kvbv3Edb7jdyQBF8KUafIN2%2F5Y7PQycIfodyAdy0weckj20dZ%2FTdzObCM0bubGd9YSDKYp1utzsjuOLORzrEFoUa42DYQOXcNctzu2K5YLpyYhc6s27l2%2FZctBFd7MY8UZ0yzQ%2FRKhO9M9J3D%2BG5lepLUoTAvmNZ1hM88MgBVgvEVTdqJgDY99IL6xiNebn5StxtAGuISxYuqVNkCYfjPDubvSkzneSjWgDQlVaXKZE15lbH7u5Br2tsPMy43gFqbfnjleTJadd2VVBS%2BJfhhH9TICNriS6mDku1SnVB4G1OBDRG49gV%2BhwFPlBYFBSMaWPvR5zvVtdP3%2BnHEU70aTWZslw8vP7L61pp%2FfVPUl0Tuo8QNDvnOyJscdN6igg4Rrd6YO1Fdn3%2FsLx0CJk%2FUcAcY1vCuAEQHJCxMVb5diIuUjsI4Y1gz73sREl5wbUZVMkCMM7378AGOqUBSt0XJlLKUCABAIVWhphMWdS9RjQLPPea%2FuO74Gc7Md2JxYHtbGAf%2F68wgP%2FnLAftrnVPSbahcnkYBtBdDliXOmGoXkU39MMrQLEek%2B%2FOBn4jUVSUhMYDwNLQJBV6TPYHCWrCsLa4L2w%2FhxbTL5eTrJ%2BR%2FG%2BVDjiLSc3rMjtm%2Bo7rxmWA%2BM8BYDToh7kt2W%2FyT8rpj%2BJFg4bJjOzcIec%2BY0%2FShEyJ&X-Amz-Signature=8cb37ee72ac1559939deb00986d979fc557990943a8cae39aba11da156305e9a&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "heroCtaText": "Enter Now to Win!",
       "entryFormCtaText": "Count Me In!",
       "successModalHeaderText": "🎉 You're In! 🎉",
       "successModalMainMessage": "Your entry for the <strong>THEFANLOUNGE Giveaway</strong> has been successfully submitted. Best of luck!",
@@ -15,7 +13,7 @@ const config = {
     "prize": {
       "images": [
         {
-          "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/7e31da39-ace2-4d7f-bd29-9a2e5402db63/EricaReddyTEAM_Logo_Final_Mar23_2016.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UYAVY6ZS%2F20250508%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250508T004637Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCRiSVExAsrPRjS%2B2WWVh4IOH49K9pAjJrQqhsb7fCCPwIgPWgLViNJ1pGWNRKwBEZ6LWQagcX9iE9XzbFmllET1S4q%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDHmHX1wIKZ3426CvdircA9v%2FHJllLC6zMPdveigdmhf3HbQv8p6V36Z8cxCRHXken7SD8WaDLMSRI4OpzP4yUpV0In3uN2elLzpVR602oZ8rh6ewQheq9eWunGKObzwOdhEjmgy86kRkJ1VbiBT1WaEu%2FE%2BrhMcxwjCGkCfb3KNvFMv3XTilp%2BpE0HaxkL%2Fa5eS3IhdI%2Fl86kvbv3Edb7jdyQBF8KUafIN2%2F5Y7PQycIfodyAdy0weckj20dZ%2FTdzObCM0bubGd9YSDKYp1utzsjuOLORzrEFoUa42DYQOXcNctzu2K5YLpyYhc6s27l2%2FZctBFd7MY8UZ0yzQ%2FRKhO9M9J3D%2BG5lepLUoTAvmNZ1hM88MgBVgvEVTdqJgDY99IL6xiNebn5StxtAGuISxYuqVNkCYfjPDubvSkzneSjWgDQlVaXKZE15lbH7u5Br2tsPMy43gFqbfnjleTJadd2VVBS%2BJfhhH9TICNriS6mDku1SnVB4G1OBDRG49gV%2BhwFPlBYFBSMaWPvR5zvVtdP3%2BnHEU70aTWZslw8vP7L61pp%2FfVPUl0Tuo8QNDvnOyJscdN6igg4Rrd6YO1Fdn3%2FsLx0CJk%2FUcAcY1vCuAEQHJCxMVb5diIuUjsI4Y1gz73sREl5wbUZVMkCMM7378AGOqUBSt0XJlLKUCABAIVWhphMWdS9RjQLPPea%2FuO74Gc7Md2JxYHtbGAf%2F68wgP%2FnLAftrnVPSbahcnkYBtBdDliXOmGoXkU39MMrQLEek%2B%2FOBn4jUVSUhMYDwNLQJBV6TPYHCWrCsLa4L2w%2FhxbTL5eTrJ%2BR%2FG%2BVDjiLSc3rMjtm%2Bo7rxmWA%2BM8BYDToh7kt2W%2FyT8rpj%2BJFg4bJjOzcIec%2BY0%2FShEyJ&X-Amz-Signature=e0c73af3ef924a7f33a7718ec540306447fb2c4ca36c009093e20b3050f542e1&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/7e31da39-ace2-4d7f-bd29-9a2e5402db63/EricaReddyTEAM_Logo_Final_Mar23_2016.png?
           "alt": "THEFANLOUNGE Logo"
         }
       ],
@@ -170,3 +168,4 @@ const config = {
     "modalQuestions": []
 
   };
+
