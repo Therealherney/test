@@ -138,6 +138,7 @@ const config = {
         "instagram": "https://www.instagram.com/ericareddy"
       },
       "organizerName": "THEFANLOUNGE Team",
+    "email": "management@thefanlounge.site",
       "phone": "(323) 531-3371",
       "address": "8 Sampson Mews Unit 201, Toronto, ON M3C0H5",
       "copyrightOwner": "THEFANLOUNGE Team"
@@ -167,5 +168,6 @@ const config = {
     "modalQuestions": []
 
   };
+
 
 
