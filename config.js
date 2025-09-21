@@ -157,7 +157,6 @@ const config = {
         "#009688",
         "#ffffff"
       ],
-      "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
       "showCountdownInHero": true
     },
     "deploymentInfo": {
@@ -170,3 +169,4 @@ const config = {
     "modalQuestions": []
 
   };
+
