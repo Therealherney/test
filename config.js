@@ -15,9 +15,10 @@ const config = {
     "prize": {
       "images": [
         {
-  "src": "https://cdn-icons-png.flaticon.com/512/906/906175.png",
-  "alt": "Gift Box Icon"
+  "src": "https://png.pngtree.com/png-clipart/20220424/original/pngtree-giveaway-gifts-vector-promo-png-image_7554058.png",
+  "alt": "Giveaway Gift Package"
 }
+
       ],
       "includedItems": [
         {
@@ -168,6 +169,7 @@ const config = {
     "modalQuestions": []
 
   };
+
 
 
 
